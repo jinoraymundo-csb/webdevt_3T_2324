@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>no title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    .markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}.emoji{height:.8em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}
+    /* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+    </style>
+    
+    <!-- The content below will be included at the end of the <head> element. --><html><head><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body></body></html>
+  </head>
+  <body for="html-export">
+    <div class="crossnote markdown-preview">
+    <html><head></head><body><div>
+<h1 id="css-structure" ebook-toc-level-1="" heading="CSS Structure ">CSS Structure </h1>
+<h2 id="applying-css-to-html" ebook-toc-level-2="" heading="Applying CSS to HTML ">Applying CSS to HTML </h2>
+<p>First, let's examine three methods of applying CSS to a document: with an external stylesheet, with an internal stylesheet, and with inline styles.</p>
+<h3 id="external-stylesheet" ebook-toc-level-3="" heading="External Stylesheet ">External Stylesheet </h3>
+<p>An external stylesheet contains CSS in a separate file with a <code>.css</code> extension. This is the most common and useful method of bringing CSS to a document. You can link a single CSS file to multiple web pages, styling all of them with the same CSS stylesheet. In the Getting started with CSS, we linked an external stylesheet to our web page.</p>
+<p>You reference an external CSS stylesheet from an HTML <code>&lt;link&gt;</code> element:</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>&lt;!doctype html&gt;
+&lt;html lang="en-GB"&gt;
+  &lt;head&gt;
+    &lt;meta charset="utf-8" /&gt;
+    &lt;title&gt;My CSS experiment&lt;/title&gt;
+    &lt;link rel="stylesheet" href="styles.css" /&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello World!&lt;/h1&gt;
+    &lt;p&gt;This is my first CSS example&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre><p>With a separate file <code>styles.css</code></p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>h1 {
+  color: blue;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+p {
+  color: red;
+}
+</code></pre><p>The <code>href</code> attribute of the <code>&lt;link&gt;</code> element needs to reference a file on your file system. In the example above, the CSS file is in the same folder as the HTML document, but you could place it somewhere else and adjust the path. Here are three examples:</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>&lt;!-- Inside a subdirectory called styles inside the current directory --&gt;
+&lt;link rel="stylesheet" href="styles/style.css" /&gt;
+
+&lt;!-- Inside a subdirectory called general, which is in a subdirectory called styles, inside the current directory --&gt;
+&lt;link rel="stylesheet" href="styles/general/style.css" /&gt;
+
+&lt;!-- Go up one directory level, then inside a subdirectory called styles --&gt;
+&lt;link rel="stylesheet" href="../styles/style.css" /&gt;
+</code></pre><h3 id="internal-stylesheet" ebook-toc-level-3="" heading="Internal Stylesheet ">Internal Stylesheet </h3>
+<p>An internal stylesheet resides within an HTML document. To create an internal stylesheet, you place CSS inside a <code>&lt;style&gt;</code> element contained inside the HTML <code>&lt;head&gt;</code>.</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>&lt;!doctype html&gt;
+&lt;html lang="en-GB"&gt;
+  &lt;head&gt;
+    &lt;meta charset="utf-8" /&gt;
+    &lt;title&gt;My CSS experiment&lt;/title&gt;
+    &lt;style&gt;
+      h1 {
+        color: blue;
+        background-color: yellow;
+        border: 1px solid black;
+      }
+
+      p {
+        color: red;
+      }
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello World!&lt;/h1&gt;
+    &lt;p&gt;This is my first CSS example&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre><p>In some circumstances, internal stylesheets can be useful. For example, perhaps you're working with a content management system where you are blocked from modifying external CSS files.</p>
+<p>But for sites with more than one page, an internal stylesheet becomes a less efficient way of working. To apply uniform CSS styling to multiple pages using internal stylesheets, you must have an internal stylesheet in every web page that will use the styling. The efficiency penalty carries over to site maintenance too. With CSS in internal stylesheets, there is the risk that even one simple styling change may require edits to multiple web pages.</p>
+<h3 id="inline-styles" ebook-toc-level-3="" heading="Inline Styles ">Inline Styles </h3>
+<p>Inline styles are CSS declarations that affect a single HTML element, contained within a style attribute. The implementation of an inline style in an HTML document might look like this:</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>&lt;!doctype html&gt;
+&lt;html lang="en-GB"&gt;
+  &lt;head&gt;
+    &lt;meta charset="utf-8" /&gt;
+    &lt;title&gt;My CSS experiment&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1 style="color: blue;background-color: yellow;border: 1px solid black;"&gt;
+      Hello World!
+    &lt;/h1&gt;
+    &lt;p style="color:red;"&gt;This is my first CSS example&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre><blockquote>
+<p><strong>Avoid using CSS in this way, when possible</strong>. It is the opposite of a best practice. First, it is the least efficient implementation of CSS for maintenance. One styling change might require multiple edits within a single web page. Second, inline CSS also mixes (CSS) presentational code with HTML and content, making everything more difficult to read and understand. Separating code and content makes maintenance easier for all who work on the website.</p>
+</blockquote>
+<blockquote>
+<p>There are a few circumstances where inline styles are more common. You might have to resort to using inline styles if your working environment is very restrictive. For example, perhaps your CMS only allows you to edit the HTML body. You may also see a lot of inline styles in HTML email to achieve compatibility with as many email clients as possible.</p>
+</blockquote>
+<hr>
+<h2 id="selectors" ebook-toc-level-2="" heading="Selectors ">Selectors </h2>
+<p>A selector targets HTML to apply styles to content. If CSS is not applying to content as expected, your selector may not match the way you think it should match.</p>
+<p>Each CSS rule starts with a selector — or a list of selectors — in order to tell the browser which element or elements the rules should apply to. All the examples below are valid selectors or lists of selectors.</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>h1
+a:link
+.manythings
+#onething
+*
+.box p
+.box p:first-child
+h1, h2, .intro
+</code></pre><h3 id="specificity" ebook-toc-level-3="" heading="Specificity ">Specificity </h3>
+<p>You may encounter scenarios where two selectors select the same HTML element. Consider the stylesheet below, with a <code>p</code> selector that sets paragraph text to blue. However, there is also a class that sets the text of selected elements to red.</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>.special {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+</code></pre><p>Suppose that in our HTML document, we have a paragraph with a class of <code>special</code>. Both rules apply. Which selector prevails? Do you expect to see blue or red paragraph text?</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>&lt;p class="special"&gt;What color am I?&lt;/p&gt;
+</code></pre><p>The CSS language has rules to control which selector is stronger in the event of a conflict. These rules are called <strong>cascade</strong> and <strong>specificity</strong>. In the code block below, we define two rules for the <code>p</code> selector, but the paragraph text will be blue. This is because the declaration that sets the paragraph text to blue appears <strong>later</strong> in the stylesheet. Later styles replace conflicting styles that appear earlier in the stylesheet. This is the cascade rule.</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>p {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+</code></pre><p>However, in the case of our earlier example with the conflict between the class selector and the element selector, the class prevails, rendering the paragraph text red. How can this happen even though a conflicting style appears later in the stylesheet? A class is rated as being more <strong>specific</strong>, as in having more specificity than the element selector, so it cancels the other conflicting style declaration.</p>
+<p>For now, remember that specificity exists. Sometimes, CSS might not apply as you expected because something else in the stylesheet has more specificity. Recognizing that more than one rule could apply to an element is the first step in fixing these kinds of issues.</p>
+<hr>
+<h2 id="properties-and-values" ebook-toc-level-2="" heading="Properties and Values ">Properties and Values </h2>
+<p>At its most basic level, CSS consists of two components:</p>
+<ul>
+<li><strong>Properties</strong> - These are human-readable identifiers that indicate which stylistic features you want to modify</li>
+<li><strong>Values</strong> - Each property is assigned a value. This value indicates how to style the property.</li>
+</ul>
+<h3 id="functions" ebook-toc-level-3="" heading="Functions ">Functions </h3>
+<p>While most values are relatively simple keywords or numeric values, there are some values that take the form of a function.</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>&lt;div class="outer"&gt;&lt;div class="box"&gt;The inner box is 90% - 30px.&lt;/div&gt;&lt;/div&gt;
+</code></pre><pre data-role="codeBlock" data-info="" class="language-text"><code>.outer {
+  border: 5px solid black;
+}
+
+.box {
+  padding: 10px;
+  width: calc(90% - 30px);
+  background-color: rebeccapurple;
+  color: white;
+}
+
+</code></pre><p><img src="data:image/png;charset=utf-8;base64,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" alt="Functions"></p>
+<p>A <strong>function</strong> consists of the function name, and parentheses to enclose the values for the function. In the case of the <code>calc()</code> example above, the values define the width of this box to be 90% of the containing block width, minus 30 pixels. The result of the calculation isn't something that can be computed in advance and entered as a static value.</p>
+<h3 id="transform-functions" ebook-toc-level-3="" heading="Transform functions ">Transform functions </h3>
+<p>Another example would be the various values for <code>transform</code>, such as <code>rotate()</code>.</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>&lt;div class="box"&gt;&lt;/div&gt;
+</code></pre><pre data-role="codeBlock" data-info="" class="language-text"><code>.box {
+  margin: 30px;
+  width: 100px;
+  height: 100px;
+  background-color: rebeccapurple;
+  transform: rotate(0.8turn);
+}
+</code></pre><p><img src="data:image/png;charset=utf-8;base64,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" alt="Rotation"></p>
+<hr>
+<h2 id="rules" ebook-toc-level-2="" heading="@rules ">@rules </h2>
+<p>CSS <code>@rules</code> (pronounced "at-rules") provide instruction for what CSS should perform or how it should behave. Some @rules are simple with just a keyword and a value. For example, <code>@import</code> imports a stylesheet into another CSS stylesheet:</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>@import "styles2.css";
+</code></pre><p>One common <code>@rule</code> that you are likely to encounter is <code>@media</code>, which is used to create <strong>media queries</strong>. Media queries use conditional logic for applying CSS styling.</p>
+<p>In the example below, the stylesheet defines a default pink background for the <code>&lt;body&gt;</code> element. However, a media query follows that defines a blue background if the browser viewport is wider than 30em.</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>body {
+  background-color: pink;
+}
+
+@media (min-width: 30em) {
+  body {
+    background-color: blue;
+  }
+}
+</code></pre><hr>
+<h2 id="shorthands" ebook-toc-level-2="" heading="Shorthands ">Shorthands </h2>
+<p>Some properties like <strong>font</strong>, <strong>background</strong>, <strong>padding</strong>, <strong>border</strong>, and <strong>margin</strong> are called <strong>shorthand properties</strong>. This is because shorthand properties set several values in a single line.</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>/* In 4-value shorthands like padding and margin, the values are applied
+   in the order top, right, bottom, left (clockwise from the top). There are also other
+   shorthand types, for example 2-value shorthands, which set padding/margin
+   for top/bottom, then left/right */
+padding: 10px 15px 15px 5px;
+</code></pre><p>which is equivalent to these four lines of code:</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>padding-top: 10px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-left: 5px;
+</code></pre><p>Another example:</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>background: red url(bg-graphic.png) 10px 10px repeat-x fixed;
+</code></pre><p>again, equivalent to:</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>background-color: red;
+background-image: url(bg-graphic.png);
+background-position: 10px 10px;
+background-repeat: repeat-x;
+background-attachment: fixed;
+</code></pre><hr>
+<h2 id="comments" ebook-toc-level-2="" heading="Comments ">Comments </h2>
+<p>As with any coding work, it is best practice to write comments along with CSS. This helps you to remember how the code works as you come back later for fixes or enhancement. It also helps others understand the code.</p>
+<p>CSS comments begin with <code>/*</code> and end with <code>*/</code>. In the example below, comments mark the start of distinct sections of code. This helps to navigate the codebase as it gets larger. With this kind of commenting in place, searching for comments in your code editor becomes a way to efficiently find a section of code.</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>/* Handle basic element styling */
+/* ---------------------------- */
+body {
+  font:
+    1em/150% Helvetica,
+    Arial,
+    sans-serif;
+  padding: 1em;
+  margin: 0 auto;
+  max-width: 33em;
+}
+
+@media (min-width: 70em) {
+  /* Increase the global font size on larger screens or windows
+     for better readability */
+  body {
+    font-size: 130%;
+  }
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+/* Handle specific elements nested in the DOM */
+div p,
+#id:first-line {
+  background-color: red;
+  border-radius: 3px;
+}
+
+div p {
+  margin: 0;
+  padding: 1em;
+}
+
+div p + p {
+  padding-top: 0;
+}
+</code></pre><p>"Commenting out" code is also useful for temporarily disabling sections of code for testing. In the example below, the rules for .special are disabled by "commenting out" the code.</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>/*.special {
+  color: red;
+}*/
+
+p {
+  color: blue;
+}
+</code></pre><hr>
+<h2 id="whitespace" ebook-toc-level-2="" heading="Whitespace ">Whitespace </h2>
+<p>White space means actual spaces, tabs and new lines. Just as browsers ignore white space in HTML, browsers ignore white space inside CSS. The value of white space is how it can improve readability.</p>
+<p>In the example below, each declaration (and rule start/end) has its own line. This is arguably a good way to write CSS. It makes it easier to maintain and understand CSS.</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>body {
+  font:
+    1em/150% Helvetica,
+    Arial,
+    sans-serif;
+  padding: 1em;
+  margin: 0 auto;
+  max-width: 33em;
+}
+
+@media (min-width: 70em) {
+  body {
+    font-size: 130%;
+  }
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+div p,
+#id:first-line {
+  background-color: red;
+  border-radius: 3px;
+}
+
+div p {
+  margin: 0;
+  padding: 1em;
+}
+
+div p + p {
+  padding-top: 0;
+}
+</code></pre><p>Which is equivalent to (but much more difficult to read and comprehend with the human eyes):</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>body {font: 1em/150% Helvetica, Arial, sans-serif; padding: 1em; margin: 0 auto; max-width: 33em;}
+@media (min-width: 70em) { body { font-size: 130%;}}
+
+h1 {font-size: 1.5em;}
+
+div p, #id:first-line {background-color: red; border-radius: 3px;}
+div p {margin: 0; padding: 1em;}
+div p + p {padding-top: 0;}
+</code></pre></div></body></html>
+    </div>
+  </body>
+</html>
