@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>purecss - getting started</title>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure.min.css">
+  <style>
+    p { 
+      border: 1px dashed black; 
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- exactly three columns -->
+  <div class="pure-g">
+    <div class="pure-u-1-3"><p>Third</p></div>
+    <div class="pure-u-1-3"><p>Third</p></div>
+    <div class="pure-u-1-3"><p>Third</p></div>
+  </div>
+
+  <!-- two columns, bigger column comes first -->
+  <div class="pure-g">
+    <div class="pure-u-2-3"><p>Two-Thirds</p></div>
+    <div class="pure-u-1-3"><p>One-Third</p></div>
+  </div>
+
+  <!-- two columns, smaller column comes first -->
+  <div class="pure-g">
+    <div class="pure-u-1-3"><p>One-Third</p></div>
+    <div class="pure-u-2-3"><p>Two-Thirds</p></div>    
+  </div>
+
+  <!-- one column only -->
+  <div class="pure-g">
+    <div class="pure-u-1-1"><p>One Whole</p></div>
+  </div>
+
+  <!-- excess -->
+  <div class="pure-g">
+    <div class="pure-u-2-3"><p>Two-Thirds</p></div>
+    <div class="pure-u-1-3"><p>One-Thirds</p></div>
+    <div class="pure-u-1-3"><p>One-Thirds</p></div>
+    <div class="pure-u-1-3"><p>One-Thirds</p></div>
+    <div class="pure-u-1-3"><p>One-Thirds</p></div>
+  </div>
+
+</body>
+</html>
