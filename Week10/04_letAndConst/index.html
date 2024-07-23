@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS - let and const</title>
+</head>
+<body>
+  <script>
+    const callbackFn = function(event) {
+      let ulam = "Inasal";
+      console.log(ulam);
+      ulam = "tinola";
+      console.log(ulam);
+
+      const waterBoilingPointInCelsius = 100;
+      console.log(waterBoilingPointInCelsius);
+      waterBoilingPointInCelsius = 98;
+      console.log(waterBoilingPointInCelsius);
+
+      const appURL = "http://localhost:10701";
+      const maximumRetries = 5;
+
+      let currentUser = "raymundoj";
+      let product = "Red Dragon Keyboard";
+    }
+
+    document.addEventListener("DOMContentLoaded", callbackFn);
+  </script>
+</body>
+</html>

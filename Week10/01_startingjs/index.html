@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starting JS - 01</title>
+</head>
+<body>
+  <script>
+    // DOM -> Document Object Model
+    // parameter #1 -> the actual event name
+    // parameter #2 -> callback function when the event is triggered
+
+    // method #1 -> passing a function that was assigned to a variable
+    const callbackFn = function(event) {
+      alert("This is the callback function!");
+    }
+    document.addEventListener("DOMContentLoaded", callbackFn);
+
+    // method #2 -> passing a function directly
+    document.addEventListener("DOMContentLoaded", function() {
+      alert("This is the callback function");
+    });
+
+    // method #3 -> passing a function directly using arrow functions
+    document.addEventListener("DOMContentLoaded", () => 
+      alert("This is the callback function"));
+  </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS variable declarations</title>
+</head>
+<body>
+  <script>
+    const callbackFn = function(event) {
+      console.log(message);
+      console.log(typeof(message));
+
+      // undefined is a type and a value
+      var message;  // declaring a variable
+      console.log(message);
+      console.log(typeof(message));
+
+      message = "hi";  // assigning a value to a declared variable
+      console.log(message);
+      console.log(typeof(message));
+    }
+
+    document.addEventListener("DOMContentLoaded", callbackFn);
+  </script>
+</body>
+</html>
