@@ -33,7 +33,7 @@ db.run('CREATE TABLE IF NOT EXISTS student(id INT, first_name TEXT, last_name TE
 app.use(express.json());
 ```
 
-5. Add a new directory named `database` under `activity15`
+5. Add a new directory named `database` under `deliverable09`
 6. At the bottom of `app.js`, add the following handlers:
 ```
 app.route('/students/:id')
