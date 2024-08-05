@@ -1,9 +1,9 @@
-# Deliverable 08: ExpressJS CRUD with SQLite
+# Deliverable 09: ExpressJS CRUD with SQLite
 
 ## Setup:
-1. `deliverable08` directory
-2. open `deliverable08` in VSCode
-3. open the terminal and run the following commands: (make sure you are in `deliverable08`)
+1. `deliverable09` directory
+2. open `deliverable09` in VSCode
+3. open the terminal and run the following commands: (make sure you are in `deliverable09`)
 
 ```
 npm init -y
